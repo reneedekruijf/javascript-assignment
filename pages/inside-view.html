@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   	<meta name="robots" content="all">
+	<meta name="Description" content="check out the new Legion Y520 Tower desktop from Lenovo">
+	<meta name="copyright" content="Copyright Webdesignpuntnl Culemborg">
+    <link rel="stylesheet" href="../css/css-reset.css">
+    <link rel="stylesheet" href="../css/elearning-styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Expletus+Sans:400,700" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="96x96" href="../media/icons/favicon-96x96.png">
+    <title>The inside of the Lenovo Legion Y520</title>
+</head>
+<body id="inside" class="bg">
+    <div class="wrapper inside">
+        <h1>inside view</h1>
+        <header>
+            <nav id="navigation"> <!-- menu buttons -->
+                <div class="button button--logo button--logo__top">  <!-- home button -->
+                    <a href="../index.html" title="home"><img src="../media/logos/lenovo-logo.svg" alt="back to the home page" ></a>
+                </div> 
+                <div class="button button--inside button--inside__top"> <!-- insideview button -->
+                    <a href="#" title="binnenzijde" id="active">
+                        <img src="../media/images/lenovo-inside-button.svg" alt="go to the inside of the Lenovo">
+                        <p class="hoverPoppup"><span>binnenzijde</span></p>
+                    </a>
+                </div>
+                <div class="button button--rear button--rear__top">  <!-- rearview button -->
+                    <a href="../pages/rear-view.html" title="achterzijde"><img src="../media/images/lenovo-rear-button.svg" alt="go to the rear of the Lenvo"></a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section> <!-- image map of the inside view -->
+                <h2>Inside view of the lenovo Legion Y520 Tower</h2> <!--kept the resolution of the image high. At 72 ppi the qualtiy was very poor -->
+                <img src="../media/images/lenovo-inside-base.jpg" id="baseImage" width="797" height="782" alt="interior of the lenovo tower" usemap="#mapInside">
+                <map name="mapInside" id="mapInside">
+                    <area shape="circle" coords="250,182,37" href="#" alt="" title="klik voor meer info" id="1" data-clickedId="0" class="numberBullets"> <!-- one -->
+                    <area shape="circle" coords="90,82,37"   href="#" alt="" title="klik voor meer info" id="2" data-clickedId="1" class="numberBullets">
+                    <area shape="circle" coords="370,52,37"  href="#" alt="" title="klik voor meer info" id="3" data-clickedId="2" class="numberBullets">
+                    <area shape="circle" coords="270,362,37" href="#" alt="" title="klik voor meer info" id="4" data-clickedId="3" class="numberBullets">
+                    <area shape="circle" coords="120,712,37" href="#" alt="" title="klik voor meer info" id="5" data-clickedId="4" class="numberBullets">
+                    <area shape="circle" coords="631,641,37" href="#" alt="" title="klik voor meer info" id="6" data-clickedId="5" class="numberBullets">
+                    <area shape="circle" coords="660,100,37" href="#" alt="" title="klik voor meer info" id="7" data-clickedId="6" class="numberBullets"> <!-- seven -->
+                </map>
+            </section>
+            <section class="overlay" id="jsDisabled"> <!-- fallback if javscript is not working -->
+                <p>Uw browser lijkt geen Javascript te ondersteunen. Helaas werkt deze pagina dan niet.
+                    Mocht u toch de informatie willen zien van deze Lenovo desktop dan kunt u een PDF downloaden.
+                    <a href="media/pdf/lenovo-y520-tower.pdf" title="PDF-document, 366kb.">Lenovo Y520 Tower</a>
+                </p>
+            </section>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="../js/lenovo-script.js"></script>
+    <script src="../js/lenovo-database.js"></script>
+</body>
+</html>
